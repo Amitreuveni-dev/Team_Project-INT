@@ -15,10 +15,35 @@ body {
 }
 .top-nav-style > h1 {
   font-weight: 900;
-  font-size: 2.2rem;
+  font-size: 2.5rem;
   letter-spacing: 0.35em;
   font-style: italic;
   font-family: cursive;
+}
+@media (max-width: 760px) {
+  .top-nav-style > h1 {
+    font-size: 2.3rem;
+  }
+}
+@media (max-width: 760px) {
+  .top-nav-style > h1 {
+    font-size: 2.3rem;
+  }
+}
+@media (max-width: 760px) {
+  .top-nav-style > h1 {
+    font-size: 2.3rem;
+  }
+}
+@media (max-width: 760px) {
+  .top-nav-style > h1 {
+    font-size: 2.3rem;
+  }
+}
+@media (max-width: 760px) {
+  .top-nav-style > h1 {
+    font-size: 2.3rem;
+  }
 }
 .top-nav-style .page-nav {
   background-color: var(--background-300);
@@ -35,26 +60,6 @@ body {
   text-decoration: none;
   cursor: pointer;
 }
-@media (max-width: 650px) {
-  .top-nav-style .page-nav a {
-    font-size: 0.8rem;
-  }
-}
-@media (max-width: 560px) {
-  .top-nav-style .page-nav a {
-    font-size: 0.5rem;
-  }
-}
-@media (max-width: 490px) {
-  .top-nav-style .page-nav a {
-    font-size: 0.4rem;
-  }
-}
-@media (max-width: 340px) {
-  .top-nav-style .page-nav a {
-    font-size: 0.2rem;
-  }
-}
 .top-nav-style .info-buttons {
   background: none;
   border-color: black;
@@ -65,24 +70,9 @@ body {
 .top-nav-style .info-buttons img {
   cursor: pointer;
 }
-@media (max-width: 640px) {
-  .top-nav-style {
-    font-size: 2rem;
-  }
-}
-@media (max-width: 470px) {
-  .top-nav-style {
-    font-size: 1.6rem;
-  }
-}
-@media (max-width: 370px) {
-  .top-nav-style {
-    font-size: 1.2rem;
-  }
-}
-@media (max-width: 250px) {
-  .top-nav-style {
-    font-size: 0.8rem;
+@media (max-width: 550px) {
+  .top-nav-style .info-buttons {
+    width: 300px;
   }
 }
 

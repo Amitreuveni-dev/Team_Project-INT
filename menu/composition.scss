@@ -12,16 +12,36 @@ body{
     align-items: center; 
     justify-content: space-around;
     background-color: var(--background-600);
-    
-    
+
+        
     
     > h1 {
         font-weight: 900;
-        font-size: 2.2rem;
+        font-size: 2.5rem;
         letter-spacing: 0.35em;
         font-style: italic;
         font-family: cursive;
         
+        @media (max-width:760px) {
+            font-size: 2.3rem;
+            
+        }
+        @media (max-width:760px) {
+            font-size: 2.3rem;
+            
+        }
+        @media (max-width:760px) {
+            font-size: 2.3rem;
+            
+        }
+        @media (max-width:760px) {
+            font-size: 2.3rem;
+            
+        }
+        @media (max-width:760px) {
+            font-size: 2.3rem;
+            
+        }
     }
 
     .page-nav {
@@ -30,6 +50,7 @@ body{
   border: 2px solid currentColor;
   font-size: 0.8rem;
   border: none;
+
   
   
   
@@ -41,27 +62,8 @@ body{
       font-weight: 600;
       text-decoration: none;
       cursor: pointer;
+     
       
-      
-      @media (max-width: 650px) {
-          font-size: 0.8rem;
-          
-        }
-        
-      @media (max-width: 560px) {
-          font-size: 0.5rem;
-          
-        }
-  
-      @media (max-width: 490px) {
-          font-size: 0.4rem;
-          
-        }
-      @media (max-width: 340px) {
-          font-size: 0.2rem;
-          
-        }
-  
     }
   }
   
@@ -75,28 +77,12 @@ body{
       img{
           cursor: pointer;
         }
+
+        @media (max-width:550px) {
+            width: 300px;
+        }
   }
   
-  
-  @media (max-width: 640px) {
-      font-size: 2rem;
-      
-    }
-    
-    
-  @media (max-width: 470px) {
-      font-size: 1.6rem;
-      
-    }
-  
-    @media (max-width: 370px) {
-      font-size: 1.2rem;
-      
-    }
-  @media (max-width: 250px) {
-      font-size: 0.8rem;
-      
-    }
   
 }
 
