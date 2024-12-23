@@ -1,7 +1,6 @@
 button {
   background-color: var(--background-300);
   border-radius: 0.5rem;
-  border: 2px solid currentColor;
   font-size: 0.8rem;
   border: none;
   margin: 0.2rem;
@@ -12,24 +11,25 @@ button a {
   font-size: 1rem;
   font-weight: 600;
   text-decoration: none;
+  cursor: pointer;
 }
-@media (max-width: 470px) {
+@media (max-width: 650px) {
   button a {
     font-size: 0.8rem;
   }
 }
-@media (max-width: 370px) {
-  button a {
-    font-size: 0.6rem;
-  }
-}
-@media (max-width: 290px) {
+@media (max-width: 560px) {
   button a {
     font-size: 0.5rem;
   }
 }
-@media (max-width: 250px) {
+@media (max-width: 490px) {
   button a {
     font-size: 0.4rem;
+  }
+}
+@media (max-width: 340px) {
+  button a {
+    font-size: 0.2rem;
   }
 }
